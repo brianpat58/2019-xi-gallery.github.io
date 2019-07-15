@@ -1,0 +1,44 @@
+$border: 1px solid;
+/*
+1920
+*/
+
+.body_content {
+  //border: $border;
+  //margin-top: 5.65rem;
+  //margin-bottom: 10.2rem;
+}
+
+.number-input {
+  width: 35.25px;
+}
+
+.container {
+  //border: $border;
+  margin-left: 50%;
+  
+  .card{
+    //width: 940px;
+  }
+}
+
+//.input-group {
+//  //border: $border;
+//  width: 90px;
+//  height: 30px;
+//  .btn {
+//    width: 30px;
+//    height: 30px;
+//  }
+//  .input-number {
+//    height: 30px;
+//  }
+//}
+
+
+
+@media (max-width: 425px) {
+  .body_content {
+    margin-top: 2.71rem;
+  }
+}

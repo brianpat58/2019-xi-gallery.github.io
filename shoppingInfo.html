@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- slick.css -->
+    <link rel="stylesheet" type="text/css" href="./css/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./css/slick/slick-theme.css" />
+    <!-- slick.css end -->
+    <link rel="stylesheet" type="text/css" href="./css/shoppingInfo-style.css">
+    <!-- boostrap4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Fontawesome-->
+    <script src="https://kit.fontawesome.com/3b8c5e3e15.js"></script>
+    <title>璽藝廊_v2.1.shoppingInfo</title>
+</head>
+
+<body>
+    <div class="body_wrap">
+        <!-- body_content -->
+        <div class="body_content clearfix">
+            <!-- header -->
+            <div class="d-flex align-items-stretch float-left">
+                <div class="header">
+                    <div class="header_left">
+                        <div class="logo_img">
+                            <a href="index.html" class="logo_img_style logo"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header end-->
+            <div class="float-left d-flex p-2 bd-highlight person-info">
+                <div class="container">
+                    <div class="title mt-5">
+                        <h1>Shopping Info 收件人資訊</h1>
+                    </div>
+                    <form class="person-info-form">
+                        <div class="form-row">
+                            <div class="col mt-3">
+
+                                <input type="text" class="form-control form-control-lg border border-danger"
+                                    placeholder="First Name 名字" id="">
+                            </div>
+                            <div class="col mt-3">
+
+                                <input type="text" class="form-control form-control-lg border border-danger"
+                                    placeholder="Last Name 姓氏" id="">
+                            </div>
+                        </div>
+                        <div class="form-group mb-1 mt-3">
+
+                            <input type="text" class="form-control form-control-lg border border-danger"
+                                placeholder="Street Address 地址" id="">
+                        </div>
+                        <div class="form-row">
+                            <div class="col mt-3">
+
+                                <input type="text" class="form-control form-control-lg border border-danger"
+                                    placeholder="City 縣市" id="">
+                            </div>
+                            <div class="col mt-3">
+
+                                <input type="text" class="form-control form-control-lg border border-danger"
+                                    placeholder="Region 地區" id="">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col mt-3">
+
+                                <input type="text" class="form-control form-control-lg border border-danger"
+                                    placeholder="Zip code 郵遞區號" id="">
+                            </div>
+                            <div class="col mt-3">
+
+                                <input type="text" class="form-control form-control-lg border border-danger"
+                                    placeholder="Country 國家" id="">
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+
+                            <input type="text" class="form-control form-control-lg border border-danger"
+                                placeholder="Phone Number 聯絡電話" id="">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="d-flex p-2 bd-highlight item-info">
+                <div class="container">
+                    <div class="border rounded px-3 py-3">
+                        <form>
+                            <div class="form-group row">
+                                <label for="items" class="col col-form-label">Items 數量</label>
+                                <div class="col-lg-4">
+                                    <input type="text" readonly class="form-control-plaintext" id="" value="共九件">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="total" class="col col-form-label">Subtotal 小計</label>
+                                <div class="col-lg-5">
+                                    <input type="text" readonly class="form-control-plaintext" id="" value="NT$123,456">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="items" class="col col-form-label">Total 總計</label>
+                                <div class="col-lg-7">
+                                    <input type="text" readonly class="form-control-plaintext" id="" value="NT$123,456"
+                                        style="font-size: xx-large">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-block btn-danger">Next：Billing info 付款資訊</button>
+                    <br>
+                    <button type="button" class="btn btn-block" style="font-size: large"><a
+                            href="./shoppingCart.html"><i class="fas fa-angle-left fa-lg"></i></a> Back to
+                        Shopping Cart 回到購物車</button>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer clearfix">
+            <div class="trademark">
+                <div class="trademark_label">
+                    <p>©2019 XI Gallery. all rights reserved.</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- footer end-->
+
+    </div>
+    <!-- body_content end-->
+
+
+
+
+    <!-- icon_touch -->
+    <div class="right_position">
+        <div class="icon_touch postion_fixed" id="jq-icon_touch">
+            <img src="images/xi-logo.png" alt="icon_image" class="icon_img">
+        </div>
+
+        <nav id="list_slide">
+
+            <button type="button" class="icon_list one postion_fixed" data-toggle="modal" data-target="#contactModal">
+
+                <div class="list_font_icon">
+                    <i class="far fa-envelope"></i>
+                </div>
+                <div class="list_label">
+                    <i>Mail</i>
+                </div>
+            </button>
+
+            <button type="button" class="icon_list two postion_fixed" data-toggle="modal" data-target="#phoneModal">
+                <div class="list_font_icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="list_label">
+                    <i>Phone</i>
+                </div>
+            </button>
+
+            <button class="icon_list three postion_fixed">
+                <div class="list_font_icon">
+                    <i class="fab fa-facebook-messenger"></i>
+                </div>
+                <div class="list_label">
+                    <i>Facebook</i>
+                </div>
+            </button>
+
+
+        </nav>
+
+    </div>
+    <!-- icon_touch end-->
+
+
+    <!-- contactModal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content customer">
+
+                <div class="modal-header customer">
+                    <h3 class="modal-title customer" id="contactModalLabel">Contact Us
+                        <br>
+                        <p class="title_cn">聯絡我們</p>
+                    </h3>
+                    <h5 class="modal-title">璽藝廊 Xi Gallery</h5>
+
+                </div>
+                <div class="modal-body customer">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="recipient-name" placeholder="輸入您的電子信箱">
+                        </div>
+                        <div class="form-group customer">
+                            <textarea class="form-control" id="message-text"
+                                placeholder="請輸入您的訊息，若是詢問作品，請留下作品名稱，也歡迎您留下電子信箱以外的聯絡方式。"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer customer">
+                    <div class="info_label">
+                        <div class="map_label">
+                            <i class="fas fa-map-marker-alt"> 100 台北市中正區紹興北街3號6樓</i>
+                        </div>
+                        <div class="phone_label">
+                            <i class="fas fa-phone-alt"> +886-1234-5678</i>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary text-black-50 bg-white"
+                        style="width: 8rem; border-radius: 1rem;">發送</button>
+                    <i class="fas fa-angle-left"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contactmodal end-->
+
+    <!-- phoneModal -->
+    <div class="modal fade" id="phoneModal" tabindex="-1" role="dialog" aria-labelledby="phoneModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content customer">
+                <div class="modal-header customer">
+                    <h3 class="modal-title customer" id="phoneModalLabel">Contact Us
+                        <br>
+                        <p class="title_cn">聯絡璽藝廊</p>
+                    </h3>
+
+                </div>
+                <div class="modal-body">
+                    <div class="phone text-white">
+                        <i>02-1234-5678</i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- phoneModal end-->
+
+    </div>
+    <!-- fonticon.js -->
+    <script type="text/javascript" src="//kit.fontawesome.com/3f2a064e79.js"></script>
+    <!-- fonticon.js end-->
+    <!-- slick.js -->
+    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./css/slick/slick.min.js"></script>
+    <!-- slick.js end-->
+    <!-- bootstrap -->
+    <script type="text/javascript" src="./bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+
+
+    <!-- bootstrap end -->
+
+    <script type="text/javascript" src="./js/all.js"></script>
+
+</body>
+
+</html>

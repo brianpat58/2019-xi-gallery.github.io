@@ -1,0 +1,9 @@
+/*
+1920
+*/
+.container {
+  margin-left: 50%; }
+
+@media (max-width: 425px) {
+  .body_content {
+    margin-top: 2.71rem; } }

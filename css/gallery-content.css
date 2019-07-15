@@ -1,0 +1,21 @@
+.gallery-header {
+  width: 1000px; }
+  .gallery-header .gallery-nav {
+    margin-top: -80px; }
+    .gallery-header .gallery-nav .check-out {
+      color: #9c2531;
+      border-color: #9c2531;
+      background-color: unset; }
+
+.gallery-content {
+  width: 1000px;
+  height: 600px;
+  padding-bottom: 300px; }
+  .gallery-content .images {
+    height: 360px; }
+
+@media (max-width: 425px) {
+  .gallery-header {
+    padding-top: 60px; }
+  .gallery-nav {
+    margin-top: 0px; } }

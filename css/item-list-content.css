@@ -1,0 +1,11 @@
+/*
+1920
+*/
+.card-body .list-group {
+  margin-top: 150px; }
+
+@media (max-width: 425px) {
+  .body_content {
+    margin-top: 2.71rem; }
+  .list-group {
+    margin-top: 0px; } }
