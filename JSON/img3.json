@@ -1,0 +1,16 @@
+{
+    "name": "Fake Name 3",
+    "size": [
+        "24X36",
+        "34X45",
+        "40X60",
+        "60X90"
+    ],
+    "price": [
+        26000,
+        42000,
+        62000,
+        98000
+    ],
+    "src": "./images/contentImage3.jpg"
+}

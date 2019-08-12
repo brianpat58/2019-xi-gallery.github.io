@@ -18,13 +18,13 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
     .main_content .content_img_div .content_image.img_1 {
-      background-image: url(../images/contentImage2.jpg); }
-    .main_content .content_img_div .content_image.img_2 {
-      background-image: url(../images/contentImage3.jpg); }
-    .main_content .content_img_div .content_image.img_3 {
-      background-image: url(../images/contentImage4.jpg); }
-    .main_content .content_img_div .content_image.img_4 {
       background-image: url(../images/contentImage1.jpg); }
+    .main_content .content_img_div .content_image.img_2 {
+      background-image: url(../images/contentImage2.jpg); }
+    .main_content .content_img_div .content_image.img_3 {
+      background-image: url(../images/contentImage3.jpg); }
+    .main_content .content_img_div .content_image.img_4 {
+      background-image: url(../images/contentImage4.jpg); }
 
 .img-open .modal-backdrop {
   background-color: white; }

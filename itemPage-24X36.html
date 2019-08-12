@@ -63,7 +63,7 @@
                         <div class="row no-gutters">
                             <!-- img -->
                             <div class="col-sm-9">
-                                <img src="./images/contentImage1.jpg" class="card-img" alt="...">
+                                <img src="" class="card-img" id="imgAll" alt="...">
                             </div>
                             <!-- img end -->
                             <!-- card right -->
@@ -71,16 +71,16 @@
                                 <div class="card-body flex-sm-column align-content-start flex-wrap">
                                     <div class="row">
                                         <div class="col-sm-2">
-                                            <button type="button" class="btn">
+                                            <button type="button" class="btn" onclick="goBack()">
                                                 <i class="fas fa-angle-left fa-lg"></i>
                                             </button>
                                         </div>
                                         <div class="col-sm-10">
-                                            <h4 class="card-title pt-1">
-                                                Fake Name
+                                            <h4 class="card-title pt-1" id="name">
+                                                %Fake Name%
                                             </h4>
                                             <h4 class="card-subtitle text-muted font-weight-light">
-                                                60 X 90
+                                                24 X 36
                                             </h4>
                                             <p class="card-text pt-1" style="font-size: smaller">
                                                 Brillant high gloss surface that shows every detail.
@@ -90,7 +90,7 @@
                                     <hr>
                                     <button type="button" class="btn ml-3"><i
                                             class="fab fa-facebook-square img-style fa-lg"></i></button>
-                                    <p class="ml-4 mt-5"><a href="#" style="font-size: small">See how it is at home?</a>
+                                    <p class="ml-4 mt-5"><a href="" style="font-size: small" id="inHouse">See how it is at home?</a>
                                     </p>
                                     <div class="row d-sm-flex">
                                         <div class="col-8">
@@ -279,8 +279,10 @@
 
     <!-- bootstrap end -->
 
-    <script type="text/javascript" src="./js/all.js"></script>
     <script type="text/javascript" src="./js/plus-minus.js"></script>
+    <script src="./js/itemPage.js"></script>
+    
+    
 
 
 </body>

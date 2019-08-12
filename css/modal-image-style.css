@@ -1,9 +1,9 @@
 .card-img-in {
   position: absolute;
-  top: 64px;
-  left: 166px;
-  height: 360px !important;
-  width: 228px; }
+  top: 59px;
+  left: 150px;
+  height: 358px !important;
+  width: 213px; }
 
 @media (max-width: 425px) {
   .card-img-in {
