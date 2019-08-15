@@ -7,24 +7,47 @@
   margin-left: 0;
   margin-right: 0;
   overflow: auto; }
-  .main_content .content_img_div .content_image {
-    width: 100%;
-    height: 23rem;
-    float: left;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    outline: none;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden; }
-    .main_content .content_img_div .content_image.img_1 {
-      background-image: url(../images/contentImage1.jpg); }
-    .main_content .content_img_div .content_image.img_2 {
-      background-image: url(../images/contentImage2.jpg); }
-    .main_content .content_img_div .content_image.img_3 {
-      background-image: url(../images/contentImage3.jpg); }
-    .main_content .content_img_div .content_image.img_4 {
-      background-image: url(../images/contentImage4.jpg); }
+  .main_content .content_img_div {
+    padding-bottom: 5rem; }
+    .main_content .content_img_div .content_image {
+      width: 100%;
+      height: 25.14rem;
+      float: left;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      outline: none;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden; }
+      .main_content .content_img_div .content_image.img_1 {
+        background-image: url(../images/contentImage1.jpg); }
+      .main_content .content_img_div .content_image.img_2 {
+        background-image: url(../images/contentImage2.jpg); }
+      .main_content .content_img_div .content_image.img_3 {
+        background-image: url(../images/contentImage3.jpg); }
+      .main_content .content_img_div .content_image.img_4 {
+        background-image: url(../images/contentImage4.jpg); }
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader {
+  display: none; }
+
+.js #loader {
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 0; }
+
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url() center no-repeat #fff; }
 
 .img-open .modal-backdrop {
   background-color: white; }
@@ -33,8 +56,10 @@
 *768px
 */
 @media (max-width: 768px) {
-  .main_content .content_img_div > div .content_image {
-    height: 19.5rem; } }
+  .main_content {
+    margin-top: 4rem; }
+    .main_content .content_img_div .content_image {
+      height: 19.5rem; } }
 
 /*
 *414px

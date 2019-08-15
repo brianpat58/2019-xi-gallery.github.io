@@ -2,160 +2,210 @@
 *1920px
 */
 .header {
-    margin-left: 4.58rem;
-    margin-right: 4.58rem;
+  padding-left: 4.58rem;
+  padding-right: 4.58rem;
 
-    .header_left {
-        width: 70%;
-        float: left;
+  .header_left {
+    width: 70%;
+    float: left;
 
-        .logo_img {
+    .logo_img {
+      .logo_img_style {
+        // width: 165px;
+        width: 155px;
+        // height: 94px;
+        height: 85px;
 
-            .logo_img_style {
-                // width: 165px;
-                width: 160px;
-                // height: 94px;
-                height: 90px;
+        //設定背景圖,
+        float: left; //讓圖片靠左對齊
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
 
-                //設定背景圖, 
-                float: left; //讓圖片靠左對齊
-                background-size: contain;
-                background-repeat: no-repeat;
-                background-position: center;
-
-                &.logo {
-                    background-image: url(../images/logo.png);
-                }
-
-            }
-
+        &.logo {
+          background-image: url(../images/logo.png);
         }
-
+      }
     }
+  }
 
-    .header_right {
-        width: 30%;
-        float: right;
-        padding-top: 2.36rem;
+  .header_right {
+    width: 30%;
+    float: right;
+    padding-top: 2.36rem;
 
-        .menu_list {
-            float: right;
+    .menu_list {
+      float: right;
 
-            .menu_list_li {
-                font-size: 17px;
-                font-weight: 600;
-                letter-spacing: 1.2px;
-                line-height: 2rem;
+      .menu_list_li {
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        line-height: 2.5rem;
 
-                a {
-                    &:link {
-                        color: #4a4a4a;
-                    }
+        a {
+          &:link {
+            color: #4a4a4a;
+          }
 
-                    &:visited {
-                        color: #000;
-                    }
+          &:visited {
+            color: #000;
+          }
 
-                    &:hover {
-                        color: #5a5858;
-                        text-decoration-line: unset;
-                    }
-                }
-            }
-
-            .menu_list_custom_img {
-                padding-top: 0.5rem;
-
-                a {
-                    &:link {
-                        color: #4a4a4a;
-                    }
-
-                    &:visited {
-                        color: #000;
-                    }
-
-                    &:hover {
-                        color: #5a5858;
-                        text-decoration-line: unset;
-                    }
-
-                    .mg-left {
-                        margin-left: 2rem;
-                    }
-
-                    .img-style {
-                        float: left;
-                        font-size: 22px;
-                    }
-
-                }
-
-            }
-
+          &:hover {
+            color: #5a5858;
+            text-decoration-line: unset;
+          }
         }
+      }
 
+      .menu_list_custom_img {
+        padding-top: 0.5rem;
+
+        a {
+          &:link {
+            color: #4a4a4a;
+          }
+
+          &:visited {
+            color: #000;
+          }
+
+          &:hover {
+            color: #5a5858;
+            text-decoration-line: unset;
+          }
+
+          .mg-left {
+            margin-left: 2rem;
+          }
+
+          .img-style {
+            float: left;
+            font-size: 22px;
+          }
+        }
+      }
     }
-
+  }
 }
 
 /*
 *768px
 */
+@media (max-width: 768px) {
+  .header {
+    padding-left: 3.58rem;
+    padding-right: 3.58rem;
+    .header_left {
+      width: 50%;
+      float: left;
+
+      .logo_img {
+        .logo_img_style {
+          // width: 165px;
+          width: 145px;
+          // height: 94px;
+          height: 75px;
+        }
+      }
+    }
+    .header_right {
+      width: 50%;
+      padding-top: 0;
+
+      .menu_list {
+        .menu_list_li {
+          font-size: 16px;
+          letter-spacing: 1px;
+          //line-height: 2.5rem;
+        }
+
+        .menu_list_custom_img {
+          padding-top: 2.2rem;
+        }
+      }
+    }
+  }
+}
 
 /*
-*414px
+*425px
 */
 
-@media (max-width: 414px) {
-    .header {
-        margin-left: 2.85rem;
-        margin-right: 1rem;
+@media (max-width: 425px) {
+  .header {
+    padding-left: 3.58rem;
+    padding-right: 3.58rem;
+    .header_left {
+      width: 50%;
+      float: left;
 
-        .header_left {
-            width: 50%;
-            float: left;
-
-            .logo_img {
-
-                .logo_img_style {
-                    // width: 165px;
-                    width: 80px;
-                    // height: 94px;
-                    height: 65px;
-
-
-                }
-
-
-
-            }
-
+      .logo_img {
+        .logo_img_style {
+          // width: 165px;
+          width: 110px;
+          // height: 94px;
+          height: 75px;
         }
-
-        .header_right {
-            width: 50%;
-            padding-top: 0;
-
-            .menu_list {
-
-                .menu_list_li {
-                    font-size: 22px;
-                    line-height: 3rem;
-
-                }
-
-                .menu_list_custom_img {
-                    padding-top: 3rem;
-
-
-                }
-
-            }
-
-        }
-
+      }
     }
 
+    .header_right {
+      width: 50%;
+      padding-top: 0;
 
+      .menu_list {
+        .menu_list_li {
+          font-size: 16px;
+          letter-spacing: 1px;
+          line-height: 2.5rem;
+        }
+
+        .menu_list_custom_img {
+          padding-top: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+/*
+375
+*/
+@media (max-width: 375px) {
+  .header {
+    padding-left: 2.58rem;
+    padding-right: 2.58rem;
+    .header_left {
+      width: 40%;
+      float: left;
+
+      .logo_img {
+        .logo_img_style {
+          // width: 165px;
+          width: 100px;
+          // height: 94px;
+          height: 65px;
+        }
+      }
+    }
+
+    .header_right {
+      width: 40%;
+      padding-top: 0;
+
+      .menu_list {
+        .menu_list_li {
+          font-size: 14px;
+          letter-spacing: 1px;
+          //line-height: 2.5rem;
+        }
+
+        .menu_list_custom_img {
+          padding-top: 1.5rem;
+        }
+      }
+    }
+  }
 }

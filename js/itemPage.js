@@ -86,6 +86,21 @@ function hrefSize() {
 };
 hrefSize();
 
+// Control CSS of Card
+function CSSControl() {
+    console.log(screen.width);
+    if (screen.width === 768 || screen.width === 1024) {
+        document.getElementById('img_col_left').classList.remove('img_col_left');
+        document.getElementById('img_col_right').classList.remove('img_col_right');
+        document.getElementById('img_col_left').classList.add('col-sm-12');
+        document.getElementById('img_col_right').classList.add('col-sm-12');
+    } else {
+        return;
+    }
+};
+CSSControl();
+
+
 // //img size
 // function showSize() {
 //     if (size === "24X36") {

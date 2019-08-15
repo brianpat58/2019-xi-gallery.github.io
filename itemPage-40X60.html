@@ -15,10 +15,21 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Fontawesome-->
     <script src="https://kit.fontawesome.com/3b8c5e3e15.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script>
+        //paste this code under head tag or in a seperate js file.
+        // Wait for window load
+        $(window).load(function () {
+            // Animate loader off screen
+            $(".se-pre-con").fadeOut("slow");;
+        });
+    </script>
     <title>璽藝廊_v2.1.Item Page</title>
 </head>
 
 <body>
+    <div class="se-pre-con"></div>
     <div class="body-wrap">
         <!-- body_content-->
         <div class="body_content clearfix">
@@ -62,12 +73,12 @@
                     <div class="card">
                         <div class="row no-gutters">
                             <!-- img -->
-                            <div class="col-sm-9">
+                            <div class="col-sm-9 img_col_left" id="img_col_left">
                                 <img src="" class="card-img" alt="..." id="imgAll">
                             </div>
                             <!-- img end -->
                             <!-- card right -->
-                            <div class="col-sm-3">
+                            <div class="col-sm-3 img_col_right" id="img_col_right">
                                 <div class="card-body flex-sm-column align-content-start flex-wrap">
                                     <div class="row">
                                         <div class="col-sm-2">
@@ -156,7 +167,7 @@
 
     <!-- icon_touch -->
     <div class="right_position">
-        <div class="icon_touch postion_fixed" id="jq-icon_touch">
+        <div class="icon_touch" id="jq-icon_touch">
             <img src="images/xi-logo.png" alt="icon_image" class="icon_img">
         </div>
 

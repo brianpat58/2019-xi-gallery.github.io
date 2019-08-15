@@ -23,27 +23,28 @@ $(document).ready(function () {
     autoplaySpeed: 2000,
     centerMode: true,
     centerPadding: '0px',
-    slidesToShow: 3,//1
-    responsive: [{
-      // device > 960
-      breakpoint: 768,//960
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3,
+    slidesToShow: 1,//1
+    responsive: [
+      {
+        // device > 960
+        breakpoint: 960,//960
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '60px',
+          slidesToShow: 3,
+        }
+      },
+      {
+        //480 < device < 960 
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '0px',
+          slidesToShow: 2,
+        }
       }
-    },
-    {
-      //480 < device < 960 
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
     ]
 
   });

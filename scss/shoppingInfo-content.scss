@@ -2,6 +2,10 @@ $border: 1px solid;
 /*
 1920
 */
+.body_content {
+  margin-bottom: 9rem;
+}
+
 .header {
   margin-left: 4.57rem;
   margin-right: 4.57rem;
@@ -12,8 +16,8 @@ $border: 1px solid;
   float: left;
 }
 .header .header_left .logo_img .logo_img_style {
-  width: 160px;
-  height: 90px;
+  width: 155px;
+  height: 85px;
   float: left;
   background-size: contain;
   background-repeat: no-repeat;

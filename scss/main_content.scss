@@ -4,23 +4,30 @@
 
 .main_content {
   width: 100%;
-  //height: 100%;
   margin-top: 9.57rem; //9.57rem
   margin-left: 0;
   margin-right: 0;
   overflow: auto;
 
   .content_img_div {
+    //padding-top: 5rem;
+    padding-bottom: 5rem;
     .content_image {
       width: 100%;
-      height: 23rem; //25.14rem;
+      height: 25.14rem; //25.14rem;
       float: left;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       outline: none;
+
       //height: auto;
       backface-visibility: hidden;
+
+      // transition: transform 0.3s;
+      // margin: 0 auto;
+      // padding: 50px;
+
       &.img_1 {
         background-image: url(../images/contentImage1.jpg);
       }
@@ -39,6 +46,27 @@
     }
   }
 }
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url() center no-repeat #fff;
+}
+
+// .content_image:hover {
+//   -ms-transform: scale(1.5);
+//   -webkit-transform: scale(1.5);
+//   transform: scale(1.5);
+// }
+
 //boostrap modal background
 .img-open .modal-backdrop {
   background-color: white;
@@ -50,11 +78,11 @@
 
 @media (max-width: 768px) {
   .main_content {
+    margin-top: 4rem;
     .content_img_div {
-      > div {
-        .content_image {
-          height: 19.5rem; //25.14rem;
-        }
+      .content_image {
+        //width: 19.5rem;
+        height: 19.5rem;
       }
     }
   }

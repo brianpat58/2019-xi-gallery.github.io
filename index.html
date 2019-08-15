@@ -16,11 +16,21 @@
     <link rel="stylesheet" type="text/css" href="./css/index-style.css">
     <!-- Fontawesome-->
     <script src="https://kit.fontawesome.com/3b8c5e3e15.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script>
+        //paste this code under head tag or in a seperate js file.
+        // Wait for window load
+        $(window).load(function () {
+            // Animate loader off screen
+            $(".se-pre-con").fadeOut("slow");;
+        });
+    </script>
     <title>璽藝廊_v2.1.index</title>
 </head>
 
 <body>
-
+    <div class="se-pre-con"></div>
     <div class="body_wrap">
         <!-- body_content -->
         <div class="body_content clearfix">
@@ -48,8 +58,8 @@
 
                             <!-- 圖標選單 -->
                             <div class="menu_list_custom_img">
-                                <a href="#facebook"><i class="fab fa-facebook-square img-style"></i></a>
-                                <a href="./shoppingCart.html"><i class="fas fa-shopping-cart img-style mg-left"></i></a>
+                                <a href="#facebook"><i class="fab fa-facebook-square img-style fa-sm"></i></a>
+                                <a href="./shoppingCart.html"><i class="fas fa-shopping-cart img-style mg-left fa-sm"></i></a>
                             </div>
                             <!-- 圖標選單 end-->
                         </ul>
@@ -61,21 +71,21 @@
             <!-- header end-->
             <!-- main_content -->
             <div class="main_content">
-                <div class="content_img_div" id="jq-c_img_div">
+                <ul class="content_img_div" id="jq-c_img_div">
                     <!-- 輪播畫面 -->
-                    <div>
+                    <li>
                         <a href="#" class="content_image img_1" data-toggle="modal" data-target="#img1"></a>
-                    </div>
-                    <div>
+                    </li>
+                    <li>
                         <a href="#" class="content_image img_2" data-toggle="modal" data-target="#img2"></a>
-                    </div>
-                    <div>
+                    </li>
+                    <li>
                         <a href="#" class="content_image img_3" data-toggle="modal" data-target="#img3"></a>
-                    </div>
-                    <div>
+                    </li>
+                    <li>
                         <a href="#" class="content_image img_4" data-toggle="modal" data-target="#img4"></a>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </div>
 
@@ -253,8 +263,7 @@
     <!-- fonticon.js end-->
     <!-- slick.js -->
     <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="./css/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
     <!-- slick.js end-->
     <!-- bootstrap -->
     <script type="text/javascript" src="./bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js"></script>
@@ -262,13 +271,10 @@
 
 
     <!-- bootstrap end -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="./slick/slick.min.js"></script>
+    
     <script type="text/javascript" src="./js/slicker.js"></script>
+    
     <script type="text/javascript" src="./js/modal-image.js"></script>
-    <script type="text/javascript" src="./js/plus-minus.js"></script>
-    <!--<script src="./js/button.js"></script>-->
     <script src="./js/itemlist.js"></script>
 </body>
 

@@ -2,14 +2,14 @@
 *1920px
 */
 .header {
-  margin-left: 4.58rem;
-  margin-right: 4.58rem; }
+  padding-left: 4.58rem;
+  padding-right: 4.58rem; }
   .header .header_left {
     width: 70%;
     float: left; }
     .header .header_left .logo_img .logo_img_style {
-      width: 160px;
-      height: 90px;
+      width: 155px;
+      height: 85px;
       float: left;
       background-size: contain;
       background-repeat: no-repeat;
@@ -26,7 +26,7 @@
         font-size: 17px;
         font-weight: 600;
         letter-spacing: 1.2px;
-        line-height: 2rem; }
+        line-height: 2.5rem; }
         .header .header_right .menu_list .menu_list_li a:link {
           color: #4a4a4a; }
         .header .header_right .menu_list .menu_list_li a:visited {
@@ -54,24 +54,66 @@
 /*
 *768px
 */
-/*
-*414px
-*/
-@media (max-width: 414px) {
+@media (max-width: 768px) {
   .header {
-    margin-left: 2.85rem;
-    margin-right: 1rem; }
+    padding-left: 3.58rem;
+    padding-right: 3.58rem; }
     .header .header_left {
       width: 50%;
       float: left; }
       .header .header_left .logo_img .logo_img_style {
-        width: 80px;
-        height: 65px; }
+        width: 145px;
+        height: 75px; }
     .header .header_right {
       width: 50%;
       padding-top: 0; }
       .header .header_right .menu_list .menu_list_li {
-        font-size: 22px;
-        line-height: 3rem; }
+        font-size: 16px;
+        letter-spacing: 1px; }
       .header .header_right .menu_list .menu_list_custom_img {
-        padding-top: 3rem; } }
+        padding-top: 2.2rem; } }
+
+/*
+*425px
+*/
+@media (max-width: 425px) {
+  .header {
+    padding-left: 3.58rem;
+    padding-right: 3.58rem; }
+    .header .header_left {
+      width: 50%;
+      float: left; }
+      .header .header_left .logo_img .logo_img_style {
+        width: 110px;
+        height: 75px; }
+    .header .header_right {
+      width: 50%;
+      padding-top: 0; }
+      .header .header_right .menu_list .menu_list_li {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 2.5rem; }
+      .header .header_right .menu_list .menu_list_custom_img {
+        padding-top: 1.5rem; } }
+
+/*
+375
+*/
+@media (max-width: 375px) {
+  .header {
+    padding-left: 2.58rem;
+    padding-right: 2.58rem; }
+    .header .header_left {
+      width: 40%;
+      float: left; }
+      .header .header_left .logo_img .logo_img_style {
+        width: 100px;
+        height: 65px; }
+    .header .header_right {
+      width: 40%;
+      padding-top: 0; }
+      .header .header_right .menu_list .menu_list_li {
+        font-size: 14px;
+        letter-spacing: 1px; }
+      .header .header_right .menu_list .menu_list_custom_img {
+        padding-top: 1.5rem; } }
