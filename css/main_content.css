@@ -8,7 +8,7 @@
   margin-right: 0;
   overflow: auto; }
   .main_content .content_img_div {
-    padding-bottom: 5rem; }
+    padding-bottom: 10rem; }
     .main_content .content_img_div .content_image {
       width: 100%;
       height: 25.14rem;
@@ -64,3 +64,8 @@ if it's not present, don't show loader */
 /*
 *414px
 */
+.modal-fade-transform {
+  position: center;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2); }
