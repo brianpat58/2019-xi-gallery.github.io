@@ -107,6 +107,20 @@ function goBack() {
     window.history.back();
 }
 
+// Control CSS of Card
+function CSSControl() {
+    console.log(screen.width);
+    if (screen.width === 768 || screen.width === 1024) {
+        document.getElementById('img_col_left').classList.remove('img_col_left');
+        document.getElementById('img_col_right').classList.remove('img_col_right');
+        document.getElementById('img_col_left').classList.add('col-sm-12');
+        document.getElementById('img_col_right').classList.add('col-sm-12');
+    } else {
+        return;
+    }
+};
+CSSControl();
+
 // Get img id in listItem page xsmall
 // var theParent = document.querySelector('#hrefs');
 // console.log(theParent);

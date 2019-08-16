@@ -5,10 +5,42 @@
   height: 358px !important;
   width: 213px; }
 
+@media (max-width: 1024px) {
+  .card-img-in {
+    position: absolute;
+    top: 56px;
+    left: 144px;
+    height: 355px !important;
+    width: 198px; } }
+
+@media (max-width: 768px) {
+  .card-img-in {
+    position: absolute;
+    top: 41px;
+    left: 105px;
+    height: 280px !important;
+    width: 146px; } }
+
 @media (max-width: 425px) {
   .card-img-in {
     position: absolute;
-    top: 20px;
+    top: 21px;
     left: 55px;
-    height: 180px;
-    width: 76px; } }
+    height: 178px;
+    width: 78px; } }
+
+@media (max-width: 375px) {
+  .card-img-in {
+    position: absolute;
+    top: 18px;
+    left: 45px;
+    height: 170px;
+    width: 70px; } }
+
+@media (max-width: 320px) {
+  .card-img-in {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    height: 156px;
+    width: 57px; } }
