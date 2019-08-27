@@ -20,17 +20,22 @@ $(document).ready(function () {
     // device < 480
     mobileFirst: true,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 0,
+    speed: 6000,
+    //lazyLoad: 'progressive',
     centerMode: true,
     centerPadding: '0px',
     slidesToShow: 1,//1
+    cssEase: 'linear',
+    //rtl: false,
+    slidesToScroll: 0.5,
     responsive: [
       {
         // device > 960
         breakpoint: 960,//960
         settings: {
           arrows: false,
-          centerMode: true,
+          centerMode: false,
           centerPadding: '60px',
           slidesToShow: 3,
         }
@@ -59,7 +64,6 @@ $(document).ready(function () {
 
 
 });
-
 
 
 // $('.center').slick({

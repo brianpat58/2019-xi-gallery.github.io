@@ -8,8 +8,8 @@
     width: 70%;
     float: left; }
     .header .header_left .logo_img .logo_img_style {
-      width: 155px;
-      height: 85px;
+      width: 135px;
+      height: 65px;
       float: left;
       background-size: contain;
       background-repeat: no-repeat;
@@ -18,12 +18,11 @@
         background-image: url(../images/logo.png); }
   .header .header_right {
     width: 30%;
-    float: right;
-    padding-top: 2.36rem; }
+    float: right; }
     .header .header_right .menu_list {
       float: right; }
       .header .header_right .menu_list .menu_list_li {
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 600;
         letter-spacing: 1.2px;
         line-height: 2.5rem; }

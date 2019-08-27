@@ -8,7 +8,7 @@
 
   .icon_touch {
     position: absolute; //absolute;
-    right: 5.26rem;
+    right: 3.2rem;
     bottom: 3.2rem;
 
     &.postion_fixed {
@@ -16,8 +16,8 @@
     }
 
     .icon_img {
-      width: 75px; //80px;
-      height: 75px; //80px;
+      width: 50px; //80px;
+      height: 50px; //80px;
     }
   }
 
@@ -26,13 +26,13 @@
 
     .icon_list {
       position: absolute; //absolute;
-      right: 6.8rem;
+      right: 3.7rem; //6.8rem
       bottom: 3.2rem;
       width: 40px; // 40px;
       height: 40px; // 40px;
       background-color: #9c2531; //#9c2531;
       color: #d3d3d3; //#D3D3D3;
-      border-radius: 50rem;
+      border-radius: 30rem;
       overflow: hidden;
       outline: none;
 
